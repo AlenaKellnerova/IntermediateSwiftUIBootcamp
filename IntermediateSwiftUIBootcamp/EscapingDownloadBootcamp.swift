@@ -26,9 +26,12 @@ class EscapingDownloadViewModel: ObservableObject {
     func getData() {
         
         guard let url = URL(string: "https://jsonplaceholder.typicode.com/posts") else { return }
+        
         downloadData(from: url) { data in
             if let data = data {
+                
                 guard let newPosts = try? JSONDecoder().decode([PostModel].self, from: data) else { return }
+                
                 DispatchQueue.main.async { [weak self] in
                     self?.posts = newPosts
                 }
@@ -39,7 +42,39 @@ class EscapingDownloadViewModel: ObservableObject {
     }
     
     func downloadData(from url: URL, completionHandler: @escaping (_ data: Data?) -> ()) {
+        
         URLSession.shared.dataTask(with: url) { data, response, error in
+            
+            // Checks
+//            guard let data = data else {
+//                print("no data.")
+//                return
+//            }
+//            
+//            guard error == nil else {
+//                print("Error: \(String(describing: error))")
+//                return
+//            }
+//            
+//            guard let response = response as? HTTPURLResponse else {
+//                print("Invalid response.")
+//                return
+//            }
+//            
+//            guard response.statusCode >= 200 && response.statusCode < 300 else {
+//                print("Status code is not in the 2xx range: \(response.statusCode)")
+//                return
+//            }
+            
+            // Success
+//            print("Success downloading data")
+//            print(data)
+//            let jsonString = String(data: data ?? Data(), encoding: .utf8)
+//            print(jsonString)
+//            
+//            guard let newPosts = try? JSONDecoder().decode(PostModel.self, from: data) else { return }
+            
+            
             
             guard let data = data,
                   error == nil,
