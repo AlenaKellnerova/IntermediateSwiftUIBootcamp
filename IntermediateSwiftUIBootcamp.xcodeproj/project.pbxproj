@@ -6,17 +6,82 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXFileReference section */
-		29D452A02DA568B500201337 /* IntermediateSwiftUIBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntermediateSwiftUIBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-/* End PBXFileReference section */
+/* Begin PBXBuildFile section */
+		29AF328B2DE210C6003CEE64 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29AF326C2DE210C6003CEE64 /* Preview Assets.xcassets */; };
+		29AF328C2DE210C6003CEE64 /* badum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 29AF326E2DE210C6003CEE64 /* badum.mp3 */; };
+		29AF328D2DE210C6003CEE64 /* tada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 29AF326F2DE210C6003CEE64 /* tada.mp3 */; };
+		29AF328E2DE210C6003CEE64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29AF32712DE210C6003CEE64 /* Assets.xcassets */; };
+		29AF328F2DE210C6003CEE64 /* TypealiasBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF32862DE210C6003CEE64 /* TypealiasBootcamp.swift */; };
+		29AF32902DE210C6003CEE64 /* WeakSelfBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF32872DE210C6003CEE64 /* WeakSelfBootcamp.swift */; };
+		29AF32912DE210C6003CEE64 /* SoundsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF32832DE210C6003CEE64 /* SoundsBootcamp.swift */; };
+		29AF32922DE210C6003CEE64 /* CoreDataContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 29AF32772DE210C6003CEE64 /* CoreDataContainer.xcdatamodeld */; };
+		29AF32932DE210C6003CEE64 /* CoreDataBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF32762DE210C6003CEE64 /* CoreDataBootcamp.swift */; };
+		29AF32942DE210C6003CEE64 /* NSCacheBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF32822DE210C6003CEE64 /* NSCacheBootcamp.swift */; };
+		29AF32952DE210C6003CEE64 /* HapticsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF327D2DE210C6003CEE64 /* HapticsBootcamp.swift */; };
+		29AF32962DE210C6003CEE64 /* EscapingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF32792DE210C6003CEE64 /* EscapingBootcamp.swift */; };
+		29AF32972DE210C6003CEE64 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF32752DE210C6003CEE64 /* ContentView.swift */; };
+		29AF32982DE210C6003CEE64 /* CombineDownload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF32742DE210C6003CEE64 /* CombineDownload.swift */; };
+		29AF32992DE210C6003CEE64 /* FruitsContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 29AF327C2DE210C6003CEE64 /* FruitsContainer.xcdatamodeld */; };
+		29AF329A2DE210C6003CEE64 /* CoreDataRelationshipsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF32782DE210C6003CEE64 /* CoreDataRelationshipsBootcamp.swift */; };
+		29AF329B2DE210C6003CEE64 /* TimerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF32842DE210C6003CEE64 /* TimerBootcamp.swift */; };
+		29AF329C2DE210C6003CEE64 /* TimerFromVMSubscriberBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF32852DE210C6003CEE64 /* TimerFromVMSubscriberBootcamp.swift */; };
+		29AF329D2DE210C6003CEE64 /* FileManagerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF327B2DE210C6003CEE64 /* FileManagerBootcamp.swift */; };
+		29AF329E2DE210C6003CEE64 /* CodableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF32732DE210C6003CEE64 /* CodableBootcamp.swift */; };
+		29AF329F2DE210C6003CEE64 /* HashableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF327E2DE210C6003CEE64 /* HashableBootcamp.swift */; };
+		29AF32A02DE210C6003CEE64 /* IntermediateSwiftUIBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF327F2DE210C6003CEE64 /* IntermediateSwiftUIBootcampApp.swift */; };
+		29AF32A12DE210C6003CEE64 /* LocalNotificationsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF32802DE210C6003CEE64 /* LocalNotificationsBootcamp.swift */; };
+		29AF32A22DE210C6003CEE64 /* BackgroundThreadBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF32722DE210C6003CEE64 /* BackgroundThreadBootcamp.swift */; };
+		29AF32A32DE210C6003CEE64 /* EscapingDownloadBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF327A2DE210C6003CEE64 /* EscapingDownloadBootcamp.swift */; };
+		29AF32A42DE210C6003CEE64 /* MapFilterSortBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF32812DE210C6003CEE64 /* MapFilterSortBootcamp.swift */; };
+		29AF32AB2DE2117E003CEE64 /* DownloadingImagesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF32AA2DE2117E003CEE64 /* DownloadingImagesBootcamp.swift */; };
+		29AF32AD2DE212B6003CEE64 /* ImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF32AC2DE212B6003CEE64 /* ImageModel.swift */; };
+		29AF32AF2DE21387003CEE64 /* DownloadingImagesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF32AE2DE21387003CEE64 /* DownloadingImagesViewModel.swift */; };
+		29AF32B12DE214BE003CEE64 /* ImageModelDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF32B02DE214BE003CEE64 /* ImageModelDataService.swift */; };
+		29D5138C2DE5E2AB002C50B3 /* ImageModelCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D5138B2DE5E2AB002C50B3 /* ImageModelCacheManager.swift */; };
+		29D5138E2DE5E623002C50B3 /* ImageModelFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D5138D2DE5E623002C50B3 /* ImageModelFileManager.swift */; };
+		29E55BCF2DE4C20A001C17BE /* DownloadingImagesRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E55BCE2DE4C20A001C17BE /* DownloadingImagesRow.swift */; };
+		29E55BD12DE4C2F0001C17BE /* DownloadingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E55BD02DE4C2F0001C17BE /* DownloadingImageView.swift */; };
+		29E55BD32DE4C40B001C17BE /* DownloadingImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E55BD22DE4C40B001C17BE /* DownloadingImageViewModel.swift */; };
+/* End PBXBuildFile section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		29D452A22DA568B500201337 /* IntermediateSwiftUIBootcamp */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = IntermediateSwiftUIBootcamp;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
+/* Begin PBXFileReference section */
+		29AF326C2DE210C6003CEE64 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		29AF326E2DE210C6003CEE64 /* badum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = badum.mp3; sourceTree = "<group>"; };
+		29AF326F2DE210C6003CEE64 /* tada.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tada.mp3; sourceTree = "<group>"; };
+		29AF32712DE210C6003CEE64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29AF32722DE210C6003CEE64 /* BackgroundThreadBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThreadBootcamp.swift; sourceTree = "<group>"; };
+		29AF32732DE210C6003CEE64 /* CodableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBootcamp.swift; sourceTree = "<group>"; };
+		29AF32742DE210C6003CEE64 /* CombineDownload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineDownload.swift; sourceTree = "<group>"; };
+		29AF32752DE210C6003CEE64 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		29AF32762DE210C6003CEE64 /* CoreDataBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataBootcamp.swift; sourceTree = "<group>"; };
+		29AF32782DE210C6003CEE64 /* CoreDataRelationshipsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRelationshipsBootcamp.swift; sourceTree = "<group>"; };
+		29AF32792DE210C6003CEE64 /* EscapingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapingBootcamp.swift; sourceTree = "<group>"; };
+		29AF327A2DE210C6003CEE64 /* EscapingDownloadBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapingDownloadBootcamp.swift; sourceTree = "<group>"; };
+		29AF327B2DE210C6003CEE64 /* FileManagerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerBootcamp.swift; sourceTree = "<group>"; };
+		29AF327D2DE210C6003CEE64 /* HapticsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsBootcamp.swift; sourceTree = "<group>"; };
+		29AF327E2DE210C6003CEE64 /* HashableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableBootcamp.swift; sourceTree = "<group>"; };
+		29AF327F2DE210C6003CEE64 /* IntermediateSwiftUIBootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntermediateSwiftUIBootcampApp.swift; sourceTree = "<group>"; };
+		29AF32802DE210C6003CEE64 /* LocalNotificationsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationsBootcamp.swift; sourceTree = "<group>"; };
+		29AF32812DE210C6003CEE64 /* MapFilterSortBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapFilterSortBootcamp.swift; sourceTree = "<group>"; };
+		29AF32822DE210C6003CEE64 /* NSCacheBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSCacheBootcamp.swift; sourceTree = "<group>"; };
+		29AF32832DE210C6003CEE64 /* SoundsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsBootcamp.swift; sourceTree = "<group>"; };
+		29AF32842DE210C6003CEE64 /* TimerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerBootcamp.swift; sourceTree = "<group>"; };
+		29AF32852DE210C6003CEE64 /* TimerFromVMSubscriberBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerFromVMSubscriberBootcamp.swift; sourceTree = "<group>"; };
+		29AF32862DE210C6003CEE64 /* TypealiasBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypealiasBootcamp.swift; sourceTree = "<group>"; };
+		29AF32872DE210C6003CEE64 /* WeakSelfBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelfBootcamp.swift; sourceTree = "<group>"; };
+		29AF32892DE210C6003CEE64 /* CoreDataContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataContainer.xcdatamodel; sourceTree = "<group>"; };
+		29AF328A2DE210C6003CEE64 /* FruitsContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruitsContainer.xcdatamodel; sourceTree = "<group>"; };
+		29AF32AA2DE2117E003CEE64 /* DownloadingImagesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadingImagesBootcamp.swift; sourceTree = "<group>"; };
+		29AF32AC2DE212B6003CEE64 /* ImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModel.swift; sourceTree = "<group>"; };
+		29AF32AE2DE21387003CEE64 /* DownloadingImagesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadingImagesViewModel.swift; sourceTree = "<group>"; };
+		29AF32B02DE214BE003CEE64 /* ImageModelDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModelDataService.swift; sourceTree = "<group>"; };
+		29D452A02DA568B500201337 /* IntermediateSwiftUIBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntermediateSwiftUIBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29D5138B2DE5E2AB002C50B3 /* ImageModelCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModelCacheManager.swift; sourceTree = "<group>"; };
+		29D5138D2DE5E623002C50B3 /* ImageModelFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModelFileManager.swift; sourceTree = "<group>"; };
+		29E55BCE2DE4C20A001C17BE /* DownloadingImagesRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadingImagesRow.swift; sourceTree = "<group>"; };
+		29E55BD02DE4C2F0001C17BE /* DownloadingImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadingImageView.swift; sourceTree = "<group>"; };
+		29E55BD22DE4C40B001C17BE /* DownloadingImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadingImageViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		29D4529D2DA568B500201337 /* Frameworks */ = {
@@ -29,11 +94,109 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29AF326D2DE210C6003CEE64 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				29AF326C2DE210C6003CEE64 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		29AF32702DE210C6003CEE64 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				29AF326E2DE210C6003CEE64 /* badum.mp3 */,
+				29AF326F2DE210C6003CEE64 /* tada.mp3 */,
+			);
+			path = sounds;
+			sourceTree = "<group>";
+		};
+		29AF32882DE210C6003CEE64 /* IntermediateSwiftUIBootcamp */ = {
+			isa = PBXGroup;
+			children = (
+				29AF326D2DE210C6003CEE64 /* Preview Content */,
+				29AF32702DE210C6003CEE64 /* sounds */,
+				29AF32712DE210C6003CEE64 /* Assets.xcassets */,
+				29AF32722DE210C6003CEE64 /* BackgroundThreadBootcamp.swift */,
+				29AF32732DE210C6003CEE64 /* CodableBootcamp.swift */,
+				29AF32742DE210C6003CEE64 /* CombineDownload.swift */,
+				29AF32752DE210C6003CEE64 /* ContentView.swift */,
+				29AF32762DE210C6003CEE64 /* CoreDataBootcamp.swift */,
+				29AF32772DE210C6003CEE64 /* CoreDataContainer.xcdatamodeld */,
+				29AF32782DE210C6003CEE64 /* CoreDataRelationshipsBootcamp.swift */,
+				29AF32792DE210C6003CEE64 /* EscapingBootcamp.swift */,
+				29AF327A2DE210C6003CEE64 /* EscapingDownloadBootcamp.swift */,
+				29AF327B2DE210C6003CEE64 /* FileManagerBootcamp.swift */,
+				29AF327C2DE210C6003CEE64 /* FruitsContainer.xcdatamodeld */,
+				29AF327D2DE210C6003CEE64 /* HapticsBootcamp.swift */,
+				29AF327E2DE210C6003CEE64 /* HashableBootcamp.swift */,
+				29AF327F2DE210C6003CEE64 /* IntermediateSwiftUIBootcampApp.swift */,
+				29AF32802DE210C6003CEE64 /* LocalNotificationsBootcamp.swift */,
+				29AF32812DE210C6003CEE64 /* MapFilterSortBootcamp.swift */,
+				29AF32822DE210C6003CEE64 /* NSCacheBootcamp.swift */,
+				29AF32832DE210C6003CEE64 /* SoundsBootcamp.swift */,
+				29AF32842DE210C6003CEE64 /* TimerBootcamp.swift */,
+				29AF32852DE210C6003CEE64 /* TimerFromVMSubscriberBootcamp.swift */,
+				29AF32862DE210C6003CEE64 /* TypealiasBootcamp.swift */,
+				29AF32872DE210C6003CEE64 /* WeakSelfBootcamp.swift */,
+			);
+			path = IntermediateSwiftUIBootcamp;
+			sourceTree = "<group>";
+		};
+		29AF32A52DE210CD003CEE64 /* DownloadingImages */ = {
+			isa = PBXGroup;
+			children = (
+				29AF32A92DE21112003CEE64 /* Utilities */,
+				29AF32A62DE210E6003CEE64 /* Models */,
+				29AF32A72DE210F3003CEE64 /* Views */,
+				29AF32A82DE210FB003CEE64 /* ViewModels */,
+			);
+			path = DownloadingImages;
+			sourceTree = "<group>";
+		};
+		29AF32A62DE210E6003CEE64 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				29AF32AC2DE212B6003CEE64 /* ImageModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		29AF32A72DE210F3003CEE64 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				29AF32AA2DE2117E003CEE64 /* DownloadingImagesBootcamp.swift */,
+				29E55BCE2DE4C20A001C17BE /* DownloadingImagesRow.swift */,
+				29E55BD02DE4C2F0001C17BE /* DownloadingImageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		29AF32A82DE210FB003CEE64 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				29AF32AE2DE21387003CEE64 /* DownloadingImagesViewModel.swift */,
+				29E55BD22DE4C40B001C17BE /* DownloadingImageViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		29AF32A92DE21112003CEE64 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				29AF32B02DE214BE003CEE64 /* ImageModelDataService.swift */,
+				29D5138B2DE5E2AB002C50B3 /* ImageModelCacheManager.swift */,
+				29D5138D2DE5E623002C50B3 /* ImageModelFileManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		29D452972DA568B400201337 = {
 			isa = PBXGroup;
 			children = (
-				29D452A22DA568B500201337 /* IntermediateSwiftUIBootcamp */,
+				29AF32882DE210C6003CEE64 /* IntermediateSwiftUIBootcamp */,
 				29D452A12DA568B500201337 /* Products */,
+				29AF32A52DE210CD003CEE64 /* DownloadingImages */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,9 +222,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				29D452A22DA568B500201337 /* IntermediateSwiftUIBootcamp */,
 			);
 			name = IntermediateSwiftUIBootcamp;
 			packageProductDependencies = (
@@ -109,6 +269,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29AF328B2DE210C6003CEE64 /* Preview Assets.xcassets in Resources */,
+				29AF328C2DE210C6003CEE64 /* badum.mp3 in Resources */,
+				29AF328D2DE210C6003CEE64 /* tada.mp3 in Resources */,
+				29AF328E2DE210C6003CEE64 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +283,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29D5138C2DE5E2AB002C50B3 /* ImageModelCacheManager.swift in Sources */,
+				29AF328F2DE210C6003CEE64 /* TypealiasBootcamp.swift in Sources */,
+				29E55BD12DE4C2F0001C17BE /* DownloadingImageView.swift in Sources */,
+				29AF32902DE210C6003CEE64 /* WeakSelfBootcamp.swift in Sources */,
+				29AF32912DE210C6003CEE64 /* SoundsBootcamp.swift in Sources */,
+				29AF32922DE210C6003CEE64 /* CoreDataContainer.xcdatamodeld in Sources */,
+				29AF32932DE210C6003CEE64 /* CoreDataBootcamp.swift in Sources */,
+				29AF32B12DE214BE003CEE64 /* ImageModelDataService.swift in Sources */,
+				29AF32942DE210C6003CEE64 /* NSCacheBootcamp.swift in Sources */,
+				29AF32952DE210C6003CEE64 /* HapticsBootcamp.swift in Sources */,
+				29AF32AD2DE212B6003CEE64 /* ImageModel.swift in Sources */,
+				29AF32962DE210C6003CEE64 /* EscapingBootcamp.swift in Sources */,
+				29E55BD32DE4C40B001C17BE /* DownloadingImageViewModel.swift in Sources */,
+				29AF32972DE210C6003CEE64 /* ContentView.swift in Sources */,
+				29AF32982DE210C6003CEE64 /* CombineDownload.swift in Sources */,
+				29AF32992DE210C6003CEE64 /* FruitsContainer.xcdatamodeld in Sources */,
+				29AF32AB2DE2117E003CEE64 /* DownloadingImagesBootcamp.swift in Sources */,
+				29AF329A2DE210C6003CEE64 /* CoreDataRelationshipsBootcamp.swift in Sources */,
+				29AF329B2DE210C6003CEE64 /* TimerBootcamp.swift in Sources */,
+				29AF329C2DE210C6003CEE64 /* TimerFromVMSubscriberBootcamp.swift in Sources */,
+				29AF329D2DE210C6003CEE64 /* FileManagerBootcamp.swift in Sources */,
+				29D5138E2DE5E623002C50B3 /* ImageModelFileManager.swift in Sources */,
+				29AF329E2DE210C6003CEE64 /* CodableBootcamp.swift in Sources */,
+				29AF329F2DE210C6003CEE64 /* HashableBootcamp.swift in Sources */,
+				29AF32A02DE210C6003CEE64 /* IntermediateSwiftUIBootcampApp.swift in Sources */,
+				29AF32AF2DE21387003CEE64 /* DownloadingImagesViewModel.swift in Sources */,
+				29AF32A12DE210C6003CEE64 /* LocalNotificationsBootcamp.swift in Sources */,
+				29E55BCF2DE4C20A001C17BE /* DownloadingImagesRow.swift in Sources */,
+				29AF32A22DE210C6003CEE64 /* BackgroundThreadBootcamp.swift in Sources */,
+				29AF32A32DE210C6003CEE64 /* EscapingDownloadBootcamp.swift in Sources */,
+				29AF32A42DE210C6003CEE64 /* MapFilterSortBootcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +519,29 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		29AF32772DE210C6003CEE64 /* CoreDataContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				29AF32892DE210C6003CEE64 /* CoreDataContainer.xcdatamodel */,
+			);
+			currentVersion = 29AF32892DE210C6003CEE64 /* CoreDataContainer.xcdatamodel */;
+			path = CoreDataContainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		29AF327C2DE210C6003CEE64 /* FruitsContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				29AF328A2DE210C6003CEE64 /* FruitsContainer.xcdatamodel */,
+			);
+			currentVersion = 29AF328A2DE210C6003CEE64 /* FruitsContainer.xcdatamodel */;
+			path = FruitsContainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 29D452982DA568B400201337 /* Project object */;
 }
