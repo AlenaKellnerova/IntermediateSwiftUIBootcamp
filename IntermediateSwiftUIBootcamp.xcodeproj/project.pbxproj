@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29AB1C692DEB305600719708 /* AccessibilityColorsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AB1C682DEB305600719708 /* AccessibilityColorsBootcamp.swift */; };
 		29AF328B2DE210C6003CEE64 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29AF326C2DE210C6003CEE64 /* Preview Assets.xcassets */; };
 		29AF328C2DE210C6003CEE64 /* badum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 29AF326E2DE210C6003CEE64 /* badum.mp3 */; };
 		29AF328D2DE210C6003CEE64 /* tada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 29AF326F2DE210C6003CEE64 /* tada.mp3 */; };
@@ -46,6 +47,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		29AB1C682DEB305600719708 /* AccessibilityColorsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityColorsBootcamp.swift; sourceTree = "<group>"; };
 		29AF326C2DE210C6003CEE64 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		29AF326E2DE210C6003CEE64 /* badum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = badum.mp3; sourceTree = "<group>"; };
 		29AF326F2DE210C6003CEE64 /* tada.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tada.mp3; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 				29AF327D2DE210C6003CEE64 /* HapticsBootcamp.swift */,
 				29AF327E2DE210C6003CEE64 /* HashableBootcamp.swift */,
 				29AF327F2DE210C6003CEE64 /* IntermediateSwiftUIBootcampApp.swift */,
+				29AB1C682DEB305600719708 /* AccessibilityColorsBootcamp.swift */,
 				29AF32802DE210C6003CEE64 /* LocalNotificationsBootcamp.swift */,
 				29AF32812DE210C6003CEE64 /* MapFilterSortBootcamp.swift */,
 				29AF32822DE210C6003CEE64 /* NSCacheBootcamp.swift */,
@@ -313,6 +316,7 @@
 				29AF32A02DE210C6003CEE64 /* IntermediateSwiftUIBootcampApp.swift in Sources */,
 				29AF32AF2DE21387003CEE64 /* DownloadingImagesViewModel.swift in Sources */,
 				29AF32A12DE210C6003CEE64 /* LocalNotificationsBootcamp.swift in Sources */,
+				29AB1C692DEB305600719708 /* AccessibilityColorsBootcamp.swift in Sources */,
 				29E55BCF2DE4C20A001C17BE /* DownloadingImagesRow.swift in Sources */,
 				29D513912DE6114E002C50B3 /* AccessibilityTextBootcamp.swift in Sources */,
 				29AF32A22DE210C6003CEE64 /* BackgroundThreadBootcamp.swift in Sources */,
