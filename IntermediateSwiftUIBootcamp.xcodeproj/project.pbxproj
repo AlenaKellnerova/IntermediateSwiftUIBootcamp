@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2952FF522DF4ACB000DADF02 /* AlignmentGuidesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2952FF512DF4ACB000DADF02 /* AlignmentGuidesBootcamp.swift */; };
 		29AB1C692DEB305600719708 /* AccessibilityColorsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AB1C682DEB305600719708 /* AccessibilityColorsBootcamp.swift */; };
 		29AB1C6B2DEB3AA800719708 /* AccessibilityVoiceOverBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AB1C6A2DEB3AA800719708 /* AccessibilityVoiceOverBootcamp.swift */; };
 		29AF328B2DE210C6003CEE64 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29AF326C2DE210C6003CEE64 /* Preview Assets.xcassets */; };
@@ -48,6 +49,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2952FF512DF4ACB000DADF02 /* AlignmentGuidesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentGuidesBootcamp.swift; sourceTree = "<group>"; };
 		29AB1C682DEB305600719708 /* AccessibilityColorsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityColorsBootcamp.swift; sourceTree = "<group>"; };
 		29AB1C6A2DEB3AA800719708 /* AccessibilityVoiceOverBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityVoiceOverBootcamp.swift; sourceTree = "<group>"; };
 		29AF326C2DE210C6003CEE64 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 				29AB1C682DEB305600719708 /* AccessibilityColorsBootcamp.swift */,
 				29AF32802DE210C6003CEE64 /* LocalNotificationsBootcamp.swift */,
 				29AF32812DE210C6003CEE64 /* MapFilterSortBootcamp.swift */,
+				2952FF512DF4ACB000DADF02 /* AlignmentGuidesBootcamp.swift */,
 				29AB1C6A2DEB3AA800719708 /* AccessibilityVoiceOverBootcamp.swift */,
 				29AF32822DE210C6003CEE64 /* NSCacheBootcamp.swift */,
 				29AF32832DE210C6003CEE64 /* SoundsBootcamp.swift */,
@@ -321,6 +324,7 @@
 				29AF32AF2DE21387003CEE64 /* DownloadingImagesViewModel.swift in Sources */,
 				29AF32A12DE210C6003CEE64 /* LocalNotificationsBootcamp.swift in Sources */,
 				29AB1C692DEB305600719708 /* AccessibilityColorsBootcamp.swift in Sources */,
+				2952FF522DF4ACB000DADF02 /* AlignmentGuidesBootcamp.swift in Sources */,
 				29E55BCF2DE4C20A001C17BE /* DownloadingImagesRow.swift in Sources */,
 				29D513912DE6114E002C50B3 /* AccessibilityTextBootcamp.swift in Sources */,
 				29AF32A22DE210C6003CEE64 /* BackgroundThreadBootcamp.swift in Sources */,
