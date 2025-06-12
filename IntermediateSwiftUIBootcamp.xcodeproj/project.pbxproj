@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2911A8D92DF7348200BC7DE1 /* VisualEffectBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2911A8D82DF7348200BC7DE1 /* VisualEffectBootcamp.swift */; };
 		2952FF522DF4ACB000DADF02 /* AlignmentGuidesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2952FF512DF4ACB000DADF02 /* AlignmentGuidesBootcamp.swift */; };
+		2961EE062DF8830E000E8319 /* ScrollViewPagingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2961EE052DF8830E000E8319 /* ScrollViewPagingBootcamp.swift */; };
 		29AB1C692DEB305600719708 /* AccessibilityColorsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AB1C682DEB305600719708 /* AccessibilityColorsBootcamp.swift */; };
 		29AB1C6B2DEB3AA800719708 /* AccessibilityVoiceOverBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AB1C6A2DEB3AA800719708 /* AccessibilityVoiceOverBootcamp.swift */; };
 		29AF328B2DE210C6003CEE64 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29AF326C2DE210C6003CEE64 /* Preview Assets.xcassets */; };
@@ -49,7 +51,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2911A8D82DF7348200BC7DE1 /* VisualEffectBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEffectBootcamp.swift; sourceTree = "<group>"; };
 		2952FF512DF4ACB000DADF02 /* AlignmentGuidesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentGuidesBootcamp.swift; sourceTree = "<group>"; };
+		2961EE052DF8830E000E8319 /* ScrollViewPagingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewPagingBootcamp.swift; sourceTree = "<group>"; };
 		29AB1C682DEB305600719708 /* AccessibilityColorsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityColorsBootcamp.swift; sourceTree = "<group>"; };
 		29AB1C6A2DEB3AA800719708 /* AccessibilityVoiceOverBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityVoiceOverBootcamp.swift; sourceTree = "<group>"; };
 		29AF326C2DE210C6003CEE64 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -138,11 +142,13 @@
 				29AF327B2DE210C6003CEE64 /* FileManagerBootcamp.swift */,
 				29AF327C2DE210C6003CEE64 /* FruitsContainer.xcdatamodeld */,
 				29AF327D2DE210C6003CEE64 /* HapticsBootcamp.swift */,
+				2961EE052DF8830E000E8319 /* ScrollViewPagingBootcamp.swift */,
 				29AF327E2DE210C6003CEE64 /* HashableBootcamp.swift */,
 				29AF327F2DE210C6003CEE64 /* IntermediateSwiftUIBootcampApp.swift */,
 				29AB1C682DEB305600719708 /* AccessibilityColorsBootcamp.swift */,
 				29AF32802DE210C6003CEE64 /* LocalNotificationsBootcamp.swift */,
 				29AF32812DE210C6003CEE64 /* MapFilterSortBootcamp.swift */,
+				2911A8D82DF7348200BC7DE1 /* VisualEffectBootcamp.swift */,
 				2952FF512DF4ACB000DADF02 /* AlignmentGuidesBootcamp.swift */,
 				29AB1C6A2DEB3AA800719708 /* AccessibilityVoiceOverBootcamp.swift */,
 				29AF32822DE210C6003CEE64 /* NSCacheBootcamp.swift */,
@@ -302,6 +308,7 @@
 				29AF32912DE210C6003CEE64 /* SoundsBootcamp.swift in Sources */,
 				29AF32922DE210C6003CEE64 /* CoreDataContainer.xcdatamodeld in Sources */,
 				29AF32932DE210C6003CEE64 /* CoreDataBootcamp.swift in Sources */,
+				2911A8D92DF7348200BC7DE1 /* VisualEffectBootcamp.swift in Sources */,
 				29AF32B12DE214BE003CEE64 /* ImageModelDataService.swift in Sources */,
 				29AF32942DE210C6003CEE64 /* NSCacheBootcamp.swift in Sources */,
 				29AF32952DE210C6003CEE64 /* HapticsBootcamp.swift in Sources */,
@@ -318,6 +325,7 @@
 				29AF329D2DE210C6003CEE64 /* FileManagerBootcamp.swift in Sources */,
 				29D5138E2DE5E623002C50B3 /* ImageModelFileManager.swift in Sources */,
 				29AB1C6B2DEB3AA800719708 /* AccessibilityVoiceOverBootcamp.swift in Sources */,
+				2961EE062DF8830E000E8319 /* ScrollViewPagingBootcamp.swift in Sources */,
 				29AF329E2DE210C6003CEE64 /* CodableBootcamp.swift in Sources */,
 				29AF329F2DE210C6003CEE64 /* HashableBootcamp.swift in Sources */,
 				29AF32A02DE210C6003CEE64 /* IntermediateSwiftUIBootcampApp.swift in Sources */,
